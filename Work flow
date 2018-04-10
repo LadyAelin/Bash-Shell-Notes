@@ -1,0 +1,27 @@
+git init means initialize. The command sets up all the tools Git needs to begin tracking changes made to the project.
+
+
+Git has..
+
+A Working Directory: where you'll be doing all the work: creating, editing, deleting and organizing files
+
+A Staging Area: where you'll list changes you make to the working directory
+
+A Repository: where Git permanently stores those changes as different versions of the project
+
+checking changes of the working directory using: git status
+
+add file to staging area using: git add filename
+
+checking the difference between the working directory and the staging area using: git diff filename
+
+A commit is the last step in our Git workflow. A commit permanently stores changes from the staging area inside the repository.
+
+git commit:  git commit -m "Complete first line of dialogue"  
+
+rules for git commit
+Must be in quotation marks
+Written in the present tense
+Should be brief (50 characters or less) when using -m
+
+Commits are stored chronologically in the repository and can be viewed with:
